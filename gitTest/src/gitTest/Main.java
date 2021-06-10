@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
 	static boolean flag = true;
 
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws InterruptedException {	// 2021.06.10 PM 03:16
 		
 		Thread th = new Thread(() -> {
 			Scanner sc = new Scanner(System.in);
